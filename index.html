@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Leads Solar — CRM para empresas de energia solar</title>
+  <meta name="description" content="Leads Solar é um CRM em nuvem (SaaS) da Mogi Solar para empresas de energia solar: receba os leads dos anúncios do Facebook, acompanhe o funil no Kanban e feche mais vendas." />
+  <style>
+    :root { --bg:#fff; --fg:#1e293b; --muted:#64748b; --brand:#f97316; --card:#f8fafc; --line:#e2e8f0; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0f172a; --fg:#e2e8f0; --muted:#94a3b8; --card:#1e293b; --line:#334155; }
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--fg); line-height:1.65;
+           font-family: system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+    .wrap { max-width:960px; margin:0 auto; padding:0 20px; }
+    header { border-bottom:1px solid var(--line); }
+    header .wrap { display:flex; align-items:center; justify-content:space-between; padding-top:16px; padding-bottom:16px; }
+    .logo { font-weight:800; font-size:1.2rem; }
+    .logo span { color:var(--brand); }
+    nav a { margin-left:18px; color:var(--muted); text-decoration:none; font-size:.95rem; }
+    nav a:hover { color:var(--fg); }
+    .hero { padding:64px 0 40px; }
+    h1 { font-size:clamp(1.9rem,5vw,2.8rem); line-height:1.2; margin:0 0 16px; }
+    .lead { font-size:1.15rem; color:var(--muted); max-width:640px; }
+    .btn { display:inline-block; margin-top:24px; padding:12px 22px; border-radius:8px;
+           background:var(--brand); color:#fff; text-decoration:none; font-weight:600; }
+    h2 { font-size:1.5rem; margin:56px 0 16px; }
+    .grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px; }
+    .card h3 { margin:0 0 8px; font-size:1.05rem; }
+    .card p { margin:0; color:var(--muted); font-size:.95rem; }
+    ol.steps { padding-left:20px; }
+    ol.steps li { margin-bottom:10px; }
+    footer { margin-top:64px; border-top:1px solid var(--line); padding:28px 0; color:var(--muted); font-size:.9rem; }
+    footer a { color:var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="logo">Leads <span>Solar</span></div>
+      <nav>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>O CRM das empresas de energia solar</h1>
+      <p class="lead">
+        Receba automaticamente os leads dos seus anúncios do Facebook, acompanhe cada
+        cliente no funil de vendas e leve a visita até o fechamento — tudo em um só lugar,
+        com os dados da sua empresa sob o seu controle.
+      </p>
+      <a class="btn" href="#contato">Falar com a gente</a>
+    </section>
+
+    <section id="como-funciona">
+      <h2>Como funciona</h2>
+      <ol class="steps">
+        <li>Sua empresa entra no Leads Solar e clica em <strong>Conectar com o Facebook</strong>.</li>
+        <li>Faz login com a própria conta do Facebook e escolhe quais Páginas quer conectar.</li>
+        <li>Quando alguém preenche o formulário do seu anúncio de cadastro (Lead Ads), o lead aparece
+            no CRM da sua empresa em instantes, pronto para ser atendido.</li>
+        <li>Sua equipe acompanha o lead no Kanban, agenda a visita, faz o check-in e registra a venda.</li>
+      </ol>
+      <p>Você pode desconectar a Página a qualquer momento, direto no CRM.</p>
+    </section>
+
+    <section id="recursos">
+      <h2>Recursos</h2>
+      <div class="grid">
+        <div class="card"><h3>Captura de leads</h3><p>Leads dos anúncios do Facebook entram direto no seu CRM, sem planilha e sem digitação.</p></div>
+        <div class="card"><h3>Funil em Kanban</h3><p>Veja em qual etapa cada cliente está e mova o lead até a venda com poucos cliques.</p></div>
+        <div class="card"><h3>Agenda e visitas</h3><p>Agende a visita técnica e registre o check-in do vendedor no local.</p></div>
+        <div class="card"><h3>Propostas</h3><p>Monte e envie a proposta comercial do sistema fotovoltaico em PDF.</p></div>
+        <div class="card"><h3>Equipe e permissões</h3><p>SDRs, vendedores e gestores com acesso só ao que cada um precisa.</p></div>
+        <div class="card"><h3>Dados separados por empresa</h3><p>Os dados de cada cliente ficam isolados dos de outras empresas.</p></div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>
+        O Leads Solar é um produto da <strong>Mogi Solar</strong>.<br />
+        E-mail: <a href="mailto:marcelo.okazaki@sintetiza.ai">marcelo.okazaki@sintetiza.ai</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      © <span id="ano">2026</span> Mogi Solar · Leads Solar ·
+      <a href="https://api.mogisolarcrm.com.br/api/privacy">Política de Privacidade</a> ·
+      <a href="https://api.mogisolarcrm.com.br/api/terms">Termos de Uso</a> ·
+      <a href="https://api.mogisolarcrm.com.br/api/privacy#exclusao-de-dados">Exclusão de dados</a>
+    </div>
+  </footer>
+  <script>document.getElementById('ano').textContent = new Date().getFullYear();</script>
+</body>
+</html>
